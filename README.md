@@ -9,12 +9,13 @@ I've recently started contributing more to open source, mostly security and reli
 ## Projects
 
 - **[RLS Saboteur](https://github.com/mattmuller/rls-saboteur)**: mutation testing for Postgres row-level security. It breaks each policy on purpose, one at a time, and reports which breaks your tests did not notice. Works with Supabase and plain Postgres, with a CLI, a GitHub Action and a Claude Code plugin.
+- **[claimcheck](https://github.com/mattmuller/claimcheck)** (early draft): turns a written claim about code, such as "a request times out after 30 seconds", into an executable check. Then it breaks the code that check relies on, to prove the check can fail. Only one step uses an AI model, and a person can do that step instead. A model cannot mark a claim proven on its own.
 
 ## Contributions
 
 - [NVIDIA SkillSpector #91](https://github.com/NVIDIA/SkillSpector/pull/91) (merged): SkillSpector, NVIDIA's security scanner for AI agent skills, crashed when a model returned its findings as a JSON string instead of an array. The fix repairs the response so the report is still written. Found on real scans through a multi-provider gateway.
 
-New security lints for [Supabase Splinter](https://github.com/supabase/splinter), the linter behind Supabase's Security Advisor:
+New security lints for [Supabase Splinter](https://github.com/supabase/splinter), the linter behind Supabase's Security Advisor (open, awaiting review):
 
 - [#198](https://github.com/supabase/splinter/pull/198): a policy calls a function the querying role cannot execute
 - [#199](https://github.com/supabase/splinter/pull/199): a custom role inherits `anon` or `authenticated`
