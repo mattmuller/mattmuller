@@ -1,6 +1,6 @@
 # Matt Muller
 
-Solutions architect and engineer. I've spent most of my career in consultancies and agencies, turning a client's problem into something that works, and these days I do much of that with AI agents.
+Technology Leader, solutions architect and AI engineer. I've spent most of my career in consultancies and agencies, turning a client's problem into something that works, and these days I do much of that with AI agents.
 
 I'm most interested in the layer that makes AI-built software safe to rely on: orchestrating agents, and proving their work instead of trusting it.
 
